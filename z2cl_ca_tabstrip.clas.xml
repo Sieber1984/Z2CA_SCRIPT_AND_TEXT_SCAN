@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>Z2CL_CA_TABSTRIP</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Tabstrip</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tabstrip</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add new Tab to the Tabstrip</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_FOR_TAB_CHANGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Let Tab object handle the Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHECK_FOR_VISIBLE_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Ask for the first visible Tab</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Konstruktor Methode</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get instance of this class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_SUBSCREEN_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get data for the active Tab</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_TITLES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get all Tab Titles</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_INSTANCES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Alle erstellten Instanzen holen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_ON_FIRST_VISIBLE_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle to get the first visible Tab</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_ON_INVISIBLE_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle if (in)visible state of Tab got changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_ON_TAB_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle the data of the Tab which got activated</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_ON_TAB_REMOVED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle if (in)visible state of Tab got changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>HANDLE_ON_TITLE_CHANGED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle if Title got changed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_INITIAL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check if the Tabstrip is still initial</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_TAB_INVISIBLE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Welche Tabs sind (un)sichtbar</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MR_TAB_TITLES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tabbeschriftungen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_SUBSCREEN_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Daten für den aktiven Tab</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DYNNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dynppr-Nummer, welche den Tabstrip beinhaltet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_MAX_TAB_COUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Anzahl der maximal möglichen Tabs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_REPID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reportname des Dynpro, welcher den Tabstrip beinhaltet</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_STRUCTNAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tabüberschriften</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_TAB_COUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Anzahl der hinzugefügten Tabs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>ON_REMOVE_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Let Tab object handle the Function Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PAI_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle PAI (Function Code) of Tab</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Handle PBO (Screen Attributes) of Tabstrip</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>REMOVE_TAB</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add new Tab to the Tabstrip</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <SCONAME>IV_COUNTER</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Counter to show the amount of data in the Tab</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <SCONAME>IV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sreennumber of the subscreen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <SCONAME>IV_ICON</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Icon placed in the Tab</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <SCONAME>IV_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reportname of the subscreen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <SCONAME>IV_TITLE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Title for the Tab</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <SCONAME>IV_UCOMM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code assigned to the Tab</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ADD_TAB</CMPNAME>
+     <SCONAME>ZCX_CA_TAB_MISSING_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Missing parameter for tab</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHECK_FOR_TAB_CHANGE</CMPNAME>
+     <SCONAME>IV_UCOMM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IS_TAB_TITLES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure with all tab titles</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sreennumber which contains the Tabstrip</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_MAX_TAB_COUNT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maximal count of tabs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reportname of Screen which contains Tabstrip</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_STRUCTNAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structurename which is used for the Tabs on the Screen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IS_TAB_TITLES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structure with all tab titles</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sreennumber which contains the Tabstrip</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_MAX_TAB_COUNT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Maximal count of tabs</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reportname of Screen which contains Tabstrip</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_STRUCTNAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Structurename which is used for the Tabs on the Screen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_TABSTRIP_CONTROL_NAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Controlname of Tabstrip</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Self Instance</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_CA_TABSTRIP_MISSING_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Invalid parameter usage</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_CA_TABSTRIP_WRONG_PAR_TYP</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrong type for parameter</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>ZCX_CA_TAB_WRONG_FIELDNAME</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Wrong fieldname for tab</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_SUBSCREEN_DATA</CMPNAME>
+     <SCONAME>RS_SUBSCREEN_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data for the active Tab</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_TITLES</CMPNAME>
+     <SCONAME>RR_TAB_TITLES</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Tab Titles</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_INITIAL</CMPNAME>
+     <SCONAME>RV_IS_INITIAL</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>&quot;X&quot; initial, &quot; &quot; Tab(s) already added</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ON_REMOVE_TAB</CMPNAME>
+     <SCONAME>IV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Dynpro Number</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>ON_REMOVE_TAB</CMPNAME>
+     <SCONAME>IV_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program: Current Master Program</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PAI_TAB</CMPNAME>
+     <SCONAME>IV_UCOMM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>IV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sreennumber which contains the Tabstrip</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PBO</CMPNAME>
+     <SCONAME>IV_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reportname of Screen which contains Tabstrip</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_TAB</CMPNAME>
+     <SCONAME>IV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Sreennumber of the subscreen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_TAB</CMPNAME>
+     <SCONAME>IV_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reportname of the subscreen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>REMOVE_TAB</CMPNAME>
+     <SCONAME>IV_UCOMM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Code assigned to the Tab</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

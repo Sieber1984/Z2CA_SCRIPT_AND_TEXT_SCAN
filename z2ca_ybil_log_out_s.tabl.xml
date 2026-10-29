@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>Z2CA_YBIL_LOG_OUT_S</TABNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <LANGDEP>X</LANGDEP>
+    <DDTEXT>BIL Log-Ausgabe</DDTEXT>
+    <EXCLASS>3</EXCLASS>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <FIELDNAME>.INCLU-000</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z2CA_YBIL_TRAN_OUT_S</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Transaktionsdaten</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>YBIL_TRAN</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLU-001</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z2CA_YBIL_MB01_HEAD_OUT_S</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>MM Materialbelegkopf</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>YBIL_MB01_HEAD</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLU-002</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <REFTABLE>SPRAS002</REFTABLE>
+     <PRECFIELD>Z2CA_YBIL_DLV51_HEAD_OUT_S</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Anlieferung zur Bestellung</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>YBIL_DLV51_HDR</GROUPNAME>
+    </DD03P>
+    <DD03P>
+     <FIELDNAME>.INCLU-999</FIELDNAME>
+     <ADMINFIELD>0</ADMINFIELD>
+     <PRECFIELD>Z2CA_YBIL_LOGM_OUT_S</PRECFIELD>
+     <MASK>      S</MASK>
+     <DDTEXT>Aktionsprotokoll - Meldungen</DDTEXT>
+     <COMPTYPE>S</COMPTYPE>
+     <GROUPNAME>YBIL_LOGM</GROUPNAME>
+    </DD03P>
+   </DD03P_TABLE>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD02_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>BIL Log-output</DDTEXT>
+    </item>
+   </DD02_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

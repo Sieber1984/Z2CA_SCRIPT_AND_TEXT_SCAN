@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>Z2CL_CA_CUST_TCURC</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Currency_code</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Currency_code</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSATNCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get currency_code instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ISO_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get ISO currency_code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_INSTANCES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table with instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MS_CURRENCY_CODE_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Currency_code data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_CURRENCY_CODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Currency_code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TTY_INSTANCES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>TY_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>_DETERMINE_UNIT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine currency_code data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_CURRENCY_CODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Currency_code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSATNCE</CMPNAME>
+     <SCONAME>IV_CURRENCY_CODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Currency_code</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSATNCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Currency_code instance</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ISO_CODE</CMPNAME>
+     <SCONAME>RV_ISO_CODE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ISO currency_code</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

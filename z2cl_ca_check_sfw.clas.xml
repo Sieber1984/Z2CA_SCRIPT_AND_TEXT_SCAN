@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>Z2CL_CA_CHECK_SFW</CLSNAME>
+    <LANGU>D</LANGU>
+    <DESCRIPT>Prüfe Switch-Framework</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS_CLASS>
+    <SEOCLASSTX>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check Switch-Framework</DESCRIPT>
+    </SEOCLASSTX>
+   </DESCRIPTIONS_CLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Konstruktor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Constructor</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Hole Instanz</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get instance</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_INSTANCES</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Instanzen</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GT_INSTANCES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instances</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_SFW_ACTIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Ist das Switch-Framework aktiv</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>IS_SFW_ACTIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is Switch-Framework active</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DEVKEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Entwicklungsschlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_DEVKEY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Development Key</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_PARAM</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter für Organisationeinheiten</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_PARAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter for Organisational Units</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SFW_ACTIVE</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Switch-Framework ist aktiv</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MV_SFW_ACTIVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Switch-Framework is active</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>_CHECK_DEVKEY</CMPNAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Prüfe Entwicklungsschlüssel</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>_CHECK_DEVKEY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Check development key</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_DEVKEY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Entwicklungsschlüssel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_DEVKEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Development Key</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_PARAM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter für Organisationeinheiten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <SCONAME>IV_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter for Organisational Units</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_DEVKEY</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Entwicklungsschlüssel</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_DEVKEY</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Development Key</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_PARAM</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Parameter für Organisationeinheiten</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>IV_PARAM</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Parameter for Organisational Units</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Instanz</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_INSTANCE</CMPNAME>
+     <SCONAME>RO_INSTANCE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Instance</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_SFW_ACTIVE</CMPNAME>
+     <SCONAME>RV_SFW_ACTIVE</SCONAME>
+     <LANGU>D</LANGU>
+     <DESCRIPT>Switch-Framework ist aktiv</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>IS_SFW_ACTIVE</CMPNAME>
+     <SCONAME>RV_SFW_ACTIVE</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Switch-Framework is active</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
