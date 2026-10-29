@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z2CA_DHL_ALORT_NEU</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>Z2CA_DHL_ALORT_NEU</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>DHL Ortsnummer neu</DDTEXT>
+    <REPTEXT>DHL Ortsnummer neu</REPTEXT>
+    <SCRTEXT_S>OrtsNr.Neu</SCRTEXT_S>
+    <SCRTEXT_M>Ortsnummer Neu</SCRTEXT_M>
+    <SCRTEXT_L>DHL Ortsnummer neu</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>DHL location number new</DDTEXT>
+     <REPTEXT>DHL location number new</REPTEXT>
+     <SCRTEXT_S>LocNo. new</SCRTEXT_S>
+     <SCRTEXT_M>Location number new</SCRTEXT_M>
+     <SCRTEXT_L>DHL location number new</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

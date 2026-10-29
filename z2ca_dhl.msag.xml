@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z2CA_DHL</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>DHL: Messages in processing</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Schlüsselfeld &amp;1 bei Import STRDA nicht gefüllt. &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Schlüsselfeld &amp;1 bei Import ORTDA nicht gefüllt. &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Datensätze in der Datenbank &amp;1 gespeichert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Datensätze konnten nicht in der Datenbank &amp;1 gespeichert werden.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Lese ZIP-Datei &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Verarbeite Datei &amp;1 der gepackten Dateien.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Verarbeite Zeile &amp;1 von &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Version &amp;1 existiert bereits in der Datenbank &amp;2.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Datensatz wird in Datenbank &amp;1 gespeichert.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Version &amp;1 älter als neueste Version &amp;2 in der Datenbank &amp;3.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Strassencodeermittlung für &amp;1 nicht vorgesehen.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z2CA_DHL</ARBGB>
+     <STEXT>DHL: Messages in processing</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Key field &amp;1 not filled when importing STRDB. &amp;2 &amp;3 &amp;4</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Key field &amp;1 not filled when importing ORTDB. &amp;2 &amp;3</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Records stored in database &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Records could not be stored in database &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Reading ZIP-file &amp;1</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Processing file &amp;1 of zipped files.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>007</MSGNR>
+     <TEXT>Processing row &amp;1 of &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>008</MSGNR>
+     <TEXT>Version &amp;1 already exists in database &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>009</MSGNR>
+     <TEXT>Record will be stored in database &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>010</MSGNR>
+     <TEXT>Version &amp;1 older then latest version &amp;2 in database &amp;3.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>011</MSGNR>
+     <TEXT>Street code determination not provided for &amp;1.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

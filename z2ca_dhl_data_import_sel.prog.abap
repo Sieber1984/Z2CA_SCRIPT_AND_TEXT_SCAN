@@ -1,0 +1,5 @@
+PARAMETERS: p_file TYPE z2ca_filename OBLIGATORY.
+
+SELECTION-SCREEN SKIP 1.
+
+PARAMETERS p_test TYPE z2ca_test DEFAULT abap_true.
