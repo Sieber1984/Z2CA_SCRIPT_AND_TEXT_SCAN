@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+    <MASTERLANG>D</MASTERLANG>
+    <STEXT>SAPscript und Texte durchsuchen</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Eintrag &amp;1 von &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Treffer: &amp;1 Eintrag &amp;1 von &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Keine Formulare zur Selektion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Keine Texte zur Selektion</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Keine Übereinstimmung gefunden</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Textobject fehlt</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z2CA_SCRIPTTEXT_SCAN</ARBGB>
+     <STEXT>Search in SAPscript and texts</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Entry &amp;1 of &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Hit: &amp;1 entry &amp;1 of &amp;2</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>No forms found for selection</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>No texts found for selection</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>No matches found</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>006</MSGNR>
+     <TEXT>Textobject missing</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

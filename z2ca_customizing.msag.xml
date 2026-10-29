@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z2CA_CUSTOMIZING</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Customizing messages</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_CUSTOMIZING</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Kein Customizing zum Schlüssel &amp;1 in Tabelle &amp;2 gefunden.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z2CA_CUSTOMIZING</ARBGB>
+     <STEXT>Customizing messages</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>No customizing for key &amp;1 found in table &amp;2.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z2CA_EXCEL_IMP_TOOLS</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Excel Import Tools</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_EXCEL_IMP_TOOLS</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Datei &amp;1 existiert nicht.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_EXCEL_IMP_TOOLS</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>Unbekannter Fehler in ZIP-Datei &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_EXCEL_IMP_TOOLS</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Index existiert nicht in der ZIP-Datei &amp;1.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>D</SPRSL>
+     <ARBGB>Z2CA_EXCEL_IMP_TOOLS</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Entpackfehler in ZIP-Datei &amp;1.</TEXT>
+    </T100>
+   </T100>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <T100T>
+    <T100T>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z2CA_EXCEL_IMP_TOOLS</ARBGB>
+     <STEXT>Excel Import Tools</STEXT>
+    </T100T>
+   </T100T>
+   <T100_TEXTS>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>001</MSGNR>
+     <TEXT>Worksheet &amp;1 cannot be imported.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>002</MSGNR>
+     <TEXT>Worksheet &amp;1 doesn&apos;t exists.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>003</MSGNR>
+     <TEXT>Worksheet &amp;1: Type &amp;2 not found.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>004</MSGNR>
+     <TEXT>Worksheet &amp;1 for fieldtypes doesn&apos;t exists.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>005</MSGNR>
+     <TEXT>Worksheet &amp;1 ist bereits in der Verabeitung für &amp;2.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>100</MSGNR>
+     <TEXT>File &amp;1 is already openen. Close and try again?</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>101</MSGNR>
+     <TEXT>File &amp;1 couldn&apos;t be saved.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>102</MSGNR>
+     <TEXT>File &amp;1 doesn&apos;t exists.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>103</MSGNR>
+     <TEXT>Unknown error in ZIP-file &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>104</MSGNR>
+     <TEXT>Index doesen&apos;t exists in ZIP-file &amp;1.</TEXT>
+    </item>
+    <item>
+     <SPRSL>E</SPRSL>
+     <MSGNR>105</MSGNR>
+     <TEXT>Decompression error in ZIP-file &amp;1.</TEXT>
+    </item>
+   </T100_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

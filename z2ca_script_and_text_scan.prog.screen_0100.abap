@@ -1,0 +1,5 @@
+PROCESS BEFORE OUTPUT.
+  MODULE status_0100.
+  MODULE display_result.
+PROCESS AFTER INPUT.
+  MODULE user_command_0100.
