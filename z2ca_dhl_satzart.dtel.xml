@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>Z2CA_DHL_SATZART</ROLLNAME>
+    <DDLANGUAGE>D</DDLANGUAGE>
+    <DOMNAME>Z2CA_DHL_SATZART</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>10</SCRLEN1>
+    <SCRLEN2>20</SCRLEN2>
+    <SCRLEN3>40</SCRLEN3>
+    <DDTEXT>DHL Satzart</DDTEXT>
+    <REPTEXT>DHL Satzart</REPTEXT>
+    <SCRTEXT_S>Satzart</SCRTEXT_S>
+    <SCRTEXT_M>DHL Satzart</SCRTEXT_M>
+    <SCRTEXT_L>DHL Satzart</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+   <I18N_LANGS>
+    <LANGU>E</LANGU>
+   </I18N_LANGS>
+   <DD04_TEXTS>
+    <item>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DDTEXT>DHL record type</DDTEXT>
+     <REPTEXT>DHL record type</REPTEXT>
+     <SCRTEXT_S>RecordType</SCRTEXT_S>
+     <SCRTEXT_M>DHL record type</SCRTEXT_M>
+     <SCRTEXT_L>DHL record type</SCRTEXT_L>
+    </item>
+   </DD04_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
